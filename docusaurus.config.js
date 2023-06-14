@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Reverse',
-                to: '/reverse',
+                to: '/docs/category/reverse-engineering',
               },
             ],
           },
@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https/discord.gg/NoBrackets',
+                href: 'https://discord.gg/NoBrackets',
               },
               {
                 label: 'Twitter GCC',
