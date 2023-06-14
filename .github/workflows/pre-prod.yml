@@ -6,7 +6,6 @@ on:
     branches:
       - 'staging'
   
-
 jobs:
   docker:
     runs-on: ubuntu-latest
