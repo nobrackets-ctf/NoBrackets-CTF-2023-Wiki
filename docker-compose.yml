@@ -10,7 +10,7 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
       - "traefik.http.routers.nbwiki.entrypoints=web,websecure"
-      - "traefik.http.routers.nbwiki.rule=Host(`preprodpnobracketswiki.gcc-ensibs.fr`)"
+      - "traefik.http.routers.nbwiki.rule=Host(`preprodnobracketswiki.gcc-ensibs.fr`)"
       - "traefik.http.services.nbwiki.loadbalancer.server.port=80"
       - "traefik.http.routers.nbwiki.tls=true"
       - "traefik.http.routers.nbwiki.tls.certresolver=lets-encrypt"
