@@ -29,18 +29,16 @@ jobs:
         with:
           push: true
           tags: wiki-nobrackets:latest
-          
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Deployment Docker Compose Pre-Prod
-      uses: appleboy/ssh-action@v0.1.10
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USERNAME }}
-        key: ${{ secrets.SSH_KEY }}
-        script: |
-          cd /home/gcc/nobrackets/NoBrackets-CTF-2023-Wiki/
-          git pull
-          docker compose pull
-          docker compose up -d --build --force-recreate
+      - 
+        name: Deployment Docker Compose Pre-Prod
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /home/gcc/nobrackets/NoBrackets-CTF-2023-Wiki/
+            git pull
+            docker compose pull
+            docker compose up -d --build --force-recreate
+   
