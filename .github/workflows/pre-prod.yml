@@ -1,10 +1,11 @@
 name: Pre-Prod Deployment
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'staging'
-  workflow_dispatch:
+  
 
 jobs:
   docker:
@@ -29,10 +30,11 @@ jobs:
         with:
           push: true
           tags: wiki-nobrackets:latest
+          
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: up docker compose
+    - name: Deployment Docker Compose Pre-Prod
       uses: appleboy/ssh-action@v0.1.10
       with:
         host: ${{ secrets.SSH_HOST }}
