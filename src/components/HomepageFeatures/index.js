@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Learn',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Capture The Flag',
+    Svg: require('@site/static/img/flag.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Un Capture The Flag est une compétition de cybersécurité offensive où un joueur doit résoudre des challenges de hacking pour obtenir des points.
       </>
     ),
   },
   {
-    title: 'Try',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'NoBrackets',
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Le NoBrackets CTF est un CTF organisé par GCC à destination des collégiens et lycéens.
       </>
     ),
   },
   {
-    title: 'Flag',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'GCC ENSIBS',
+    Svg: require('@site/static/img/Logo_GCC.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Galette Cidre CTF (GCC) est une association de l'ENSIBS qui aide les étudiants à s'initier, participer et créer des CTFs.
       </>
     ),
   },
