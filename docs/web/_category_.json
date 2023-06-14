@@ -1,0 +1,8 @@
+{
+    "label": "Web",
+    "link": {
+      "type": "generated-index",
+      "description": "L'intrusion Web est une attaque qui exploite une vulnérabilité d'un site Web pour y injecter du code malveillant. Ce code est ensuite exécuté par le navigateur Web des visiteurs du site."
+    }
+  }
+  
