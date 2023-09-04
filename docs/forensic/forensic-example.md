@@ -2,11 +2,13 @@
 
 ## Type de fichier
 
-Lorsqu'on investigue sur des systèmes, il est courant de tomber sur des fichiers "exotiques". Entendez par là des fichiers aux extensions un peu mystérieuses comme `db`, `plist`, `raw`, `pf`... Lorsque vous rencontrez un fichier dans ce style il est courant d'être un peu perdu. **Rappellez-vous qu'un fichier n'est de toute façon qu'une suite de 0 et de 1, la seule différence entre un fichier texte et une image est la façon dont ces données sont lues.**
+Lorsqu'on investigue sur des systèmes, il est courant de tomber sur des fichiers "exotiques". Entendez par là des fichiers aux extensions un peu mystérieuses comme `db`, `plist`, `raw`, `pf`... Lorsque vous rencontrez un fichier dans ce style il est courant d'être un peu perdu. 
 
 - il peuvent être difficiles voire impossibles à ouvrir sans logiciels adaptés
 - on ne sait pas ce qu'ils contiennent ni à quoi ils servent
 - les ouvrir avec un éditeur de texte type Bloc-Note va souvent vous afficher des caractères sans significations
+
+**Rappellez-vous qu'un fichier n'est de toute façon qu'une suite de 0 et de 1, la seule différence entre un fichier texte et une image est la façon dont ces données sont lues.**
 
 **Que faire quand on rencontre un fichier étrange ?**
 
