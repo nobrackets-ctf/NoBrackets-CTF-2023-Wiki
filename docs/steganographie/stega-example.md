@@ -27,6 +27,7 @@ Il fut ensuite repris par les hommes d'Église principalement, puis plus récemm
 
 ##### Ressources :
 https://fr.wikipedia.org/wiki/Langage_de_programmation_exotique
+https://www.spammimic.com/explain_fr.shtml
 
 #### Les message transporté dans une image
 Les différentes manipulations ci-dessous peuvent s'appliquer sur l'ensemble des formats d'image (PNG, JPG, GIF, WEBP...)
@@ -56,3 +57,4 @@ https://k-lfa.info/tools-stegano/
 https://futureboy.us/stegano/
 https://ctf-wiki.mahaloz.re/
 https://book.hacktricks.xyz/crypto-and-stego/stego-tricks
+https://fareedfauzi.gitbook.io/ctf-playbook/steganography
