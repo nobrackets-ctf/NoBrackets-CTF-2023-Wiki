@@ -2,11 +2,11 @@
 
 L'OSINT signifie "Open Source Intelligence" (en français, "Renseignement en source ouverte"). Il s'agit de la pratique de collecte et d'analyse d'informations à partir de sources publiques accessibles à tous afin de recueillir des informations, des données et des renseignements sur un large éventail de sujets. L'OSINT est utilisé à diverses fins, notamment la sécurité, les enquêtes, l'analyse concurrentielle et la recherche.
 
-## Source Ouvert
+## Source Ouverte
 L'OSINT repose sur des informations accessibles à n'importe qui par le biais de canaux publics. Cela peut inclure des sites web, des réseaux sociaux, des articles de presse, etc.
 
 ## Éthique
-Non-Intrusif : L'OSINT n'implique pas de piratage ou de méthodes illégales pour obtenir des informations. En s'inflitrant dans un système d'informations, en accédant à des informations privées ou encore en espionnant quelqu'un, vous sortez du cadre de l'OSINT.
+Non-intrusif : l'OSINT n'implique pas de piratage ou de méthodes illégales pour obtenir des informations. En s'inflitrant dans un système d'informations, en accédant à des informations privées ou encore en espionnant quelqu'un, vous sortez du cadre de l'OSINT.
 Il est très important de rester conscient de ces limites lors de la résolution d'un défi d'OSINT en CTF. Le respect de la vie privée des individus et le respect des lois et réglementations sont des aspects essentiels d'une OSINT responsable.
 
 ## En CTF 
