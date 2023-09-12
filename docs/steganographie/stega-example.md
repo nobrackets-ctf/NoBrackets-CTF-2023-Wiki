@@ -42,6 +42,10 @@ https://ctf-wiki.mahaloz.re/misc/picture/introduction/
 #### Les message transporté dans un enregistrement
 Il est possible de réaliser des opérations sténographiques sur différents types d'enregistrement :
 - Audio
+
+##### Ressources :
+https://nsspot.herokuapp.com/imagetoaudio/
+
 - Vidéo
 
 ##### Ressource :
