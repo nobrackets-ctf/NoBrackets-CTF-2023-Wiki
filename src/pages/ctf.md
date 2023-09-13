@@ -7,7 +7,7 @@ L'événement se déroulera du **vendredi 10 novembre au dimanche 12 novembre à
 - les challenges
 - le classement des équipes
 - de la ressource documentaire écrite par les créateurs des challenges pour aider les plus débutants sur certains défis
-- un ensemble d'outils utiles pour la résolutions de certains challenges (machines virtuelles)
+- un ensemble d'outils utiles pour la résolution de certains challenges (machines virtuelles)
 
 Le [Discord de l'événement](https://discord.gg/njcQxMEkNQ) (rejoignez-le maintenant !) regroupe toutes les annonces, les organisateurs mais aussi les participants au concours. Lors de l'événement, c'est ici que seront publiées les annonces. C'est également un endroit où vous pourrez demander de l'aide et communiquer avec votre équipe et l'assistance. **Nous vous encourageons vivement à rejoindre le serveur pour profiter pleinement de l'événement**.
 
