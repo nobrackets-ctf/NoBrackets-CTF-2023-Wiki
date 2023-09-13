@@ -11,7 +11,11 @@ L'événement se déroulera du **vendredi 10 novembre au dimanche 12 novembre à
 
 Le [Discord de l'événement](https://discord.gg/njcQxMEkNQ) (rejoignez-le maintenant !) regroupe toutes les annonces, les organisateurs mais aussi les participants au concours. Lors de l'événement, c'est ici que seront publiées les annonces. C'est également un endroit où vous pourrez demander de l'aide et communiquer avec votre équipe et l'assistance. **Nous vous encourageons vivement à rejoindre le serveur pour profiter pleinement de l'événement**.
 
-Imaginez-le comme une chasse au trésor virtuelle, vous recherchez des informations cachées dans des ordinateurs et des systèmes informatiques. Voici comment cela fonctionne :
+Le NoBracketsCTF vise à initier les collégiens et lycéens aux métiers de la cybersécurité et de l'informatique. Il a pour but de vous fournir une première expérience formatrice dans cet écosystème riche et varié.
+
+---
+
+Imaginez un CTF comme une chasse au trésor virtuelle, vous recherchez des informations cachées dans des ordinateurs et des systèmes informatiques. Voici comment cela fonctionne :
 
 ## Les flags
 
