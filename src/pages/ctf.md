@@ -1,13 +1,13 @@
 # Qu'est-ce que le NoBracketsCTF ?
 
-Le CTF, abréviation de "Capture The Flag", est un concours qui met à l'épreuve vos compétences en informatique/cybersécurité par équipe. Le NoBracketsCTF est organisé par le club étudiant [Galette Cidre CTF (GCC)](https://gcc-ensibs.fr/), par des étudiants des spécialités [Cyberdéfense](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cyberdefense-ICYB00_213.html), [Cybersécurité du Logiciel](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-du-logiciel-IINF00_207.html) et [Cybersécurité et Sciences des Données](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-du-logiciel-IINF00_207.html) 
+Un CTF, abréviation de "Capture The Flag", est un concours qui met à l'épreuve vos compétences en informatique/cybersécurité par équipe. Le NoBracketsCTF est organisé par le club étudiant [Galette Cidre CTF (GCC)](https://gcc-ensibs.fr/), par des étudiants des spécialités [Cyberdéfense](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cyberdefense-ICYB00_213.html), [Cybersécurité du Logiciel](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-du-logiciel-IINF00_207.html) et [Cybersécurité et Sciences des Données](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-et-sciences-des-donnees-KWW171GO.html) 
  de [l'Ecole Nationale Supérieur d'Ingénieur de Bretagne Sud (ENSIBS)](https://www-ensibs.univ-ubs.fr/fr/index.html).
 
 L'événement se déroulera du **vendredi 10 novembre au dimanche 12 novembre à 23h59** par équipe. Le CTF sera **en ligne**, sur [nobrackets.fr](https://nobrackets.fr), la plateforme contiendra :
-- les challenges
-- le classement des équipes
-- de la ressource documentaire écrite par les créateurs des challenges pour aider les plus débutants sur certains défis
-- un ensemble d'outils utiles pour la résolution de certains challenges (machines virtuelles)
+- Les challenges
+- Le classement des équipes
+- De la ressource documentaire écrite par les créateurs des challenges pour aider les plus débutants sur certains défis
+- Un ensemble d'outils utiles pour la résolution de certains challenges (machines virtuelles)
 
 Le [Discord de l'événement](https://discord.gg/njcQxMEkNQ) (rejoignez-le maintenant !) regroupe toutes les annonces, les organisateurs mais aussi les participants au concours. Lors de l'événement, c'est ici que seront publiées les annonces. C'est également un endroit où vous pourrez demander de l'aide et communiquer avec votre équipe et l'assistance. **Nous vous encourageons vivement à rejoindre le serveur pour profiter pleinement de l'événement**.
 
@@ -19,7 +19,7 @@ Imaginez un CTF comme une chasse au trésor virtuelle, vous recherchez des infor
 
 ## Les flags
 
-Dans un CTF, il y a des "drapeaux" (flags) virtuels que vous devez capturer. Ces drapeaux sont essentiellement des mots de passe qui prouvent que vous avez réussi à résoudre un défi donné. Les flags ont généralement une forme pré-définie, pour ce CTF ils auront la forme suivante : ``NBCTF{un_secret}.
+Dans un CTF, il y a des "drapeaux" (flags) virtuels que vous devez capturer. Ces drapeaux sont essentiellement des mots de passe qui prouvent que vous avez réussi à résoudre un défi donné. Les flags ont généralement une forme pré-définie, pour ce CTF ils auront la forme suivante : `NBCTF{un_secret}`.
 
 ## Challenge
 
