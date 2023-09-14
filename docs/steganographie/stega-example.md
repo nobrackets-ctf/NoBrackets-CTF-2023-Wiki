@@ -51,13 +51,13 @@ Il est possible de réaliser des opérations sténographiques sur différents ty
 
 ## Ressources
 
-[https://stegonline.georgeom.net/upload](https://stegonline.georgeom.net/upload)
-[https://0xrick.github.io/lists/stego/](https://0xrick.github.io/lists/stego/)
-[https://k-lfa.info/tools-stegano/](https://k-lfa.info/tools-stegano/)
-[https://futureboy.us/stegano/](https://futureboy.us/stegano/)
-[https://ctf-wiki.mahaloz.re/](https://ctf-wiki.mahaloz.re/)
-[https://book.hacktricks.xyz/crypto-and-stego/stego-tricks](https://book.hacktricks.xyz/crypto-and-stego/stego-tricks)
-[https://fareedfauzi.gitbook.io/ctf-playbook/steganography](https://fareedfauzi.gitbook.io/ctf-playbook/steganography)
+- [https://stegonline.georgeom.net/upload](https://stegonline.georgeom.net/upload)
+- [https://0xrick.github.io/lists/stego/](https://0xrick.github.io/lists/stego/)
+- [https://k-lfa.info/tools-stegano/](https://k-lfa.info/tools-stegano/)
+- [https://futureboy.us/stegano/](https://futureboy.us/stegano/)
+- [https://ctf-wiki.mahaloz.re/](https://ctf-wiki.mahaloz.re/)
+- [https://book.hacktricks.xyz/crypto-and-stego/stego-tricks](https://book.hacktricks.xyz/crypto-and-stego/stego-tricks)
+- [https://fareedfauzi.gitbook.io/ctf-playbook/steganography](https://fareedfauzi.gitbook.io/ctf-playbook/steganography)
 
 ### Remarques générales
 
