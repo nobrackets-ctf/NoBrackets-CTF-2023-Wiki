@@ -15,50 +15,50 @@ Mais pour des raisons évidentes de praticité, on se concentrera plutôt sur le
 
 ### Les différents types de support
 Comme dit plus tôt, la stéganographie consiste à cacher un message ou une donnée dans un élément déjà existant.
-De ce fait, la connaissance des différents supports permettant ce genre de chose est très importante.
+De fait, la connaissance des différents supports permettant de cacher de l'information est importante.
 
-#### Les message transporté dans un texte
+#### Les messages transportés dans un texte
 L'utilisation de la stéganographie dans les textes pour cacher des informations est la plus ancienne de ses utilisations.
 Comme mentionné plus tôt avec la scytale spartiate, le procédé existait déjà durant l'Antiquité.
 Il fut ensuite repris par les hommes d'Église principalement, puis plus récemment par les [écrivains et poètes](https://www.monde-fantasy.com/les-messages-codes-la-steganographie/) qui on fait évoluer le procéder.
+(je trouve les points un peu vagues, un exemple serait peut-être mieux)
 - Modulation fine d'un texte écrit
 - Marquage de caractères
 - Codage sous forme d'une apparence de spam
 
 ##### Ressources :
-https://fr.wikipedia.org/wiki/Langage_de_programmation_exotique
-https://www.spammimic.com/explain_fr.shtml
+[https://fr.wikipedia.org/wiki/Langage_de_programmation_exotique](https://fr.wikipedia.org/wiki/Langage_de_programmation_exotique)
+[https://www.spammimic.com/explain_fr.shtml](https://www.spammimic.com/explain_fr.shtml)
 
-#### Les message transporté dans une image
+#### Les messages transportés dans une image
 Les différentes manipulations ci-dessous peuvent s'appliquer sur l'ensemble des formats d'image (PNG, JPG, GIF, WEBP...)
-- Manipulation des bits d'une image
+- Manipulation des bits d'une image (bits de poids faible)
 - Manipulation de la palette de couleurs d'une image
 - Message caché dans les images compressées
 - Optimisation de l'emplacement du message caché dans une image
 
 ##### Ressources :
-https://ctf-wiki.mahaloz.re/misc/picture/introduction/
+[https://ctf-wiki.mahaloz.re/misc/picture/introduction/](https://ctf-wiki.mahaloz.re/misc/picture/introduction/)
 
-#### Les message transporté dans un enregistrement
+#### Les messages transportés dans un enregistrement
+(ajouter plus de contenu ici ?)
 Il est possible de réaliser des opérations sténographiques sur différents types d'enregistrement :
-- Audio
+- Audio : [https://nsspot.herokuapp.com/imagetoaudio/](https://nsspot.herokuapp.com/imagetoaudio/)
 
-##### Ressources :
-https://nsspot.herokuapp.com/imagetoaudio/
-
-- Vidéo
-
-##### Ressource :
-https://ctf-wiki.mahaloz.re/misc/audio/introduction/
+- Vidéo : [https://ctf-wiki.mahaloz.re/misc/audio/introduction/](https://ctf-wiki.mahaloz.re/misc/audio/introduction/)
 
 #### Les message transporté dans un binaire
 
 ## Ressources
 
-https://stegonline.georgeom.net/upload
-https://0xrick.github.io/lists/stego/
-https://k-lfa.info/tools-stegano/
-https://futureboy.us/stegano/
-https://ctf-wiki.mahaloz.re/
-https://book.hacktricks.xyz/crypto-and-stego/stego-tricks
-https://fareedfauzi.gitbook.io/ctf-playbook/steganography
+[https://stegonline.georgeom.net/upload](https://stegonline.georgeom.net/upload)
+[https://0xrick.github.io/lists/stego/](https://0xrick.github.io/lists/stego/)
+[https://k-lfa.info/tools-stegano/](https://k-lfa.info/tools-stegano/)
+[https://futureboy.us/stegano/](https://futureboy.us/stegano/)
+[https://ctf-wiki.mahaloz.re/](https://ctf-wiki.mahaloz.re/)
+[https://book.hacktricks.xyz/crypto-and-stego/stego-tricks](https://book.hacktricks.xyz/crypto-and-stego/stego-tricks)
+[https://fareedfauzi.gitbook.io/ctf-playbook/steganography](https://fareedfauzi.gitbook.io/ctf-playbook/steganography)
+
+### Remarques générales
+
+Je pense qu'il faudrait mettre plus d'exemples pratiques et concrets. L'idée que je me fais du wiki est que pour certains challs (les plus simples), on puisse quasiment trouver la méthode de résolution dans le wiki. Non pas d'aggréger des ressources, ne pas oublier que le CTF n'est que sur 2j et que ce seront des débutants.
