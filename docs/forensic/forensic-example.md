@@ -1,4 +1,4 @@
-# Forensic
+# Introduction au Forensic
 ## Qu'est ce que le Forensic
 
 L’analyse forensique (plus fréquemment appelée « forensic ») consiste à investiguer un système d’information. Les analystes vont collecter l’ensemble des données brutes (fichiers effacés, disques durs, sauvegardes, journaux des systèmes…), les étudier pour comprendre ce qu’il s’est passé et établir des conclusions. 
