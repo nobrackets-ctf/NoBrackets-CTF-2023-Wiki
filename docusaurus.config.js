@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NoBrackets CTF by GCC ENSIBS.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NoBrackets CTF by GCC ENSIBS.<br>Made with ❤️ by FreezingKas, PimpMyShell & PauvreTimo`,
       },
       prism: {
         theme: lightCodeTheme,
