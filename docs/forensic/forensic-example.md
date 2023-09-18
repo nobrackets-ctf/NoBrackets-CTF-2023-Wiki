@@ -18,3 +18,4 @@ L'analyse à chaud (anglais : live forensics) est le cas où le support est dire
 ### Analyse en temps réel
 
 Ce type d'analyse est une analyse préventive où l'on examine régulièrement un support sensible. On peut notamment surveiller en temps réel le trafic réseau d'un appareil pour analyser, détecter et comprendre une attaque réseau qui arrive subitement. 
+

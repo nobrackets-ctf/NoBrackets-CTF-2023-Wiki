@@ -39,11 +39,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: `https://github.com/nobrackets-ctf/NoBrackets-CTF-2023-Wiki/tree/main/`,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
         blog: {
           showReadingTime: true,
+          editUrl: `https://github.com/nobrackets-ctf/NoBrackets-CTF-2023-Wiki/tree/main/`,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
