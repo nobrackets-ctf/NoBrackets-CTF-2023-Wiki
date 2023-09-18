@@ -3,7 +3,7 @@ on: [push]
 jobs:
   deploy:
     environment:
-      name: g ithub-pages
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
