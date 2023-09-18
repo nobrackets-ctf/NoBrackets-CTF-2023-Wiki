@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'GCC ENSIBS', // Usually your GitHub org/user name.
-  projectName: 'NoBrackets Wiki', // Usually your repo name.
+  organizationName: 'nobrackets-ctf ', // Usually your GitHub org/user name.
+  projectName: 'NoBrackets-CTF-2023-Wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
