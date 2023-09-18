@@ -90,20 +90,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Catégories',
+            title: 'Pages',
             items: [
               {
-                label: 'Reverse',
-                to: '/reverse',
+                label: "C'est quoi un CTF ?",
+                to: '/ctf',
+              },
+              {
+                label: 'Tutoriels',
+                to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Communauté',
             items: [
               {
                 label: 'Discord',
-                href: 'https/discord.gg/NoBrackets',
+                href: 'https://discord.gg/NoBrackets',
               },
               {
                 label: 'Twitter GCC',
@@ -121,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NoBrackets CTF by GCC ENSIBS, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NoBrackets CTF by GCC ENSIBS.`,
       },
       prism: {
         theme: lightCodeTheme,

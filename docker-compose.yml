@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+  web:
+    build: .
+    restart: always
+    container_name: wiki-nobrackets
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.routers.nbwiki.entrypoints=web,websecure"
+      - "traefik.http.routers.nbwiki.rule=Host(`preprodnobracketswiki.gcc-ensibs.fr`)"
+      - "traefik.http.services.nbwiki.loadbalancer.server.port=80"
+      - "traefik.http.routers.nbwiki.tls=true"
+      - "traefik.http.routers.nbwiki.tls.certresolver=lets-encrypt"
+
+networks:
+  web:
+    external: true
