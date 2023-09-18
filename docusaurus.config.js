@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://wiki.nobrackets.fr',
+  url: 'https://nobrackets-ctf.nobrackets.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/NoBrackets-CTF-2023-Wiki/',
