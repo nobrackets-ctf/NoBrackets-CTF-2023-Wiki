@@ -108,8 +108,8 @@ const config = {
                 href: 'https://discord.gg/NoBrackets',
               },
               {
-                label: 'Twitter GCC',
-                href: 'https://twitter.com/GCC_ENSIBS',
+                label: 'Twitter',
+                href: 'https://twitter.com/NoBracketsCTF',
               },
             ],
           },
