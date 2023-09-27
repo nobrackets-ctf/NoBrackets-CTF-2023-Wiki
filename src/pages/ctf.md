@@ -3,7 +3,7 @@
 Un CTF, abréviation de "Capture The Flag", est un concours qui met à l'épreuve vos compétences en informatique/cybersécurité par équipe. Le NoBracketsCTF est organisé par le club étudiant [Galette Cidre CTF (GCC)](https://gcc-ensibs.fr/), par des étudiants des spécialités [Cyberdéfense](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cyberdefense-ICYB00_213.html), [Cybersécurité du Logiciel](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-du-logiciel-IINF00_207.html) et [Cybersécurité et Sciences des Données](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-et-sciences-des-donnees-KWW171GO.html) 
  de [l'Ecole Nationale Supérieur d'Ingénieur de Bretagne Sud (ENSIBS)](https://www-ensibs.univ-ubs.fr/fr/index.html).
 
-L'événement se déroulera du **vendredi 10 novembre 20h au dimanche 12 novembre à 23h59** par équipe. Le CTF sera **en ligne**, sur [nobrackets.fr](https://nobrackets.fr), la plateforme contiendra :
+L'événement se déroulera du **vendredi 10 novembre 20h au dimanche 12 novembre à 23h59** par équipe. Le CTF sera **en ligne**, sur [nobrackets.fr](https://ctfd.nobrackets.fr), la plateforme contiendra :
 - Les challenges
 - Le classement des équipes
 - De la ressource documentaire écrite par les créateurs des challenges pour aider les plus débutants sur certains défis
