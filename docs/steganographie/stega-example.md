@@ -1,4 +1,4 @@
-# Stéganographie
+# Introduction à la Stéganographie
 
 La [stéganographie](https://fr.wikipedia.org/wiki/Stéganographie) est une forme de dissimulation (ou d'offuscation) d'information dans le but de transmettre un message de manière inaperçue au sein d'un autre message. L'information utile est cachée au premier abord et à l'œil nu, mais non protégée pour qui sait où regarder.
 Pour prendre une métaphore, la stéganographie consisterait à enterrer son argent dans son jardin là où la cryptographie consisterait à l'enfermer dans un coffre-fort. Cela dit, rien n'empêche de combiner les deux techniques, de même que l'on peut enterrer un coffre dans son jardin.

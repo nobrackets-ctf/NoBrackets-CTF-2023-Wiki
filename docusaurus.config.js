@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://ctf.nobrackets.fr',
+  url: 'https://nobrackets-ctf.nobrackets.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'GCC ENSIBS', // Usually your GitHub org/user name.
-  projectName: 'NoBrackets Wiki', // Usually your repo name.
+  organizationName: 'nobrackets-ctf ', // Usually your GitHub org/user name.
+  projectName: 'NoBrackets-CTF-2023-Wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
 
   presets: [
@@ -39,13 +39,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: `https://github.com/nobrackets-ctf/NoBrackets-CTF-2023-Wiki/tree/main/`,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
         blog: {
           showReadingTime: true,
-          editUrl: `https://github.com/nobrackets-ctf/NoBrackets-CTF-2023-Wiki/tree/main/`,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -110,8 +108,8 @@ const config = {
                 href: 'https://discord.gg/NoBrackets',
               },
               {
-                label: 'Twitter GCC',
-                href: 'https://twitter.com/GCC_ENSIBS',
+                label: 'Twitter',
+                href: 'https://twitter.com/NoBracketsCTF',
               },
             ],
           },
@@ -125,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NoBrackets CTF by GCC ENSIBS.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NoBrackets CTF by GCC ENSIBS.<br>Made with ❤️ by FreezingKas, PimpMyShell & PauvreTimo`,
       },
       prism: {
         theme: lightCodeTheme,

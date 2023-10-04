@@ -1,4 +1,4 @@
-# OSINT
+# Introduction à l'OSINT
 
 L'OSINT signifie "Open Source Intelligence" (en français, "Renseignement en source ouverte"). Il s'agit de la pratique de collecte et d'analyse d'informations à partir de sources publiques accessibles à tous afin de recueillir des informations, des données et des renseignements sur un large éventail de sujets. L'OSINT est utilisé à diverses fins, notamment la sécurité, les enquêtes, l'analyse concurrentielle et la recherche.
 
