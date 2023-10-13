@@ -14,6 +14,9 @@ De plus, on devine que c'est un flag grâce aux crochets.
 Ici, important de bien relire le nom du challenge (souvent un bon indice !) : *T'es pas tout 9* 
 Le 9 écrit en caractère numérique interpelle : avec le "t'es", ça évoque la saisie T9 des vieux téléphones : une touche, par exemple la touche 1, présente les lettres a, b et c. Presser la la touche une fois écrit la lettre a, deux fois la lettre b, etc.
 
+<img src="t9.jpg" alt="drawing" width="120"/>
+
+
 Pour déchiffrer le message, on peut sortir son vieux nokia d'un tiroir, ou alors chercher sur internet : on tombe sur dcode, un site très utile : https://www.dcode.fr/multitap-abc-cipher
 
 On entre le message, et voilà notre flag : `EXEMPLEMISCISUNDERRATED`
