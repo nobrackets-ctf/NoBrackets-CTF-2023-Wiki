@@ -19,3 +19,10 @@ L'analyse à chaud (anglais : live forensics) est le cas où le support est dire
 
 Ce type d'analyse est une analyse préventive où l'on examine régulièrement un support sensible. On peut notamment surveiller en temps réel le trafic réseau d'un appareil pour analyser, détecter et comprendre une attaque réseau qui arrive subitement. 
 
+## Cyber Threat Intelligence (CTI) :
+
+La CTI, ou "Cyber Threat Intelligence," est un domaine de la cybersécurité qui consiste à collecter, analyser et utiliser des informations sur les menaces informatiques pour anticiper et répondre aux incidents de sécurité. Les analystes CTI collectent des données provenant de diverses sources, telles que les indicateurs de compromission (IOC), les rapports de sécurité, les flux de données réseau, les forums underground, etc. Ils analysent ces données pour identifier les tendances, les attaques potentielles et les acteurs malveillants. En résumé, la CTI permet d'anticiper les menaces et de prendre des mesures proactives pour les contrer
+
+## Chasse aux Menaces (Threat Hunting) :
+
+La chasse aux menaces, ou "threat hunting," est une approche proactive de la cybersécurité. Contrairement à la détection automatique des menaces, qui se base sur des règles prédéfinies, la chasse aux menaces implique des analystes de sécurité qui recherchent activement des signes d'activités malveillantes ou de compromission au sein d'un environnement informatique. Les chasseurs de menaces utilisent souvent des informations de la CTI pour guider leurs recherches, en explorant les systèmes et les réseaux à la recherche d'anomalies subtiles qui pourraient indiquer une intrusion. Cette méthode permet de découvrir des menaces qui pourraient échapper aux systèmes de détection automatisés.
