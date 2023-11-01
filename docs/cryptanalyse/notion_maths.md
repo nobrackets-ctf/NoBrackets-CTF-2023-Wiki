@@ -54,9 +54,11 @@ Quelques liens :
 ### Représentation binaire
 Nous utilisons communément la base 10 pour calculer ou bien communiquer. Cependant, il existe d'autres bases.
 
-En base 10, le nombre 346 peut se décomposer ainsi : $346 = 3*100 + 4*10 + 6*1 = 3*10^2 + 4*10^1 + 6*10^0$
+En base 10, le nombre 346 peut se décomposer ainsi : 
+$$$ 346 = 3*100 + 4*10 + 6*1 = 3*10^2 + 4*10^1 + 6*10^0 $$$
 
-Ainsi, en base 2 (ou binaire), c'est la même chose : $(1011)_2 = 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 8 + 2 + 1 = 11$
+Ainsi, en base 2 (ou binaire), c'est la même chose : 
+$$$ (1011)_2 = 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 8 + 2 + 1 = 11 $$$
 
 Cette représentation est utilisée par les ordinateurs.
 
