@@ -16,9 +16,9 @@ Quelques liens :
 ### Le PGCD
 Le Plus Grand Diviseur Commun se calcule entre 2 nombres. Comme le nom l'indique, c'est le plus grand diviseur commun aux 2 nombres. 
 
-Exemple : $PGCD(18,16) = 2$ car $`18 \equiv 3*3*2`$ et $$16 \equiv 2*2*2*2$$.
+Exemple : $PGCD(18,16) = 2$ car $`18 \equiv 3*3*2`$ et $`16 \equiv 2*2*2*2`$.
 
-$PGCD(101,50) = 1$ car $101 \equiv 101$ et $50 \equiv 2*5*5$, 1 est le seul diviseur commun. Dans ce cas, on dit que 101 et 50 sont premiers entre eux.
+$PGCD(101,50) = 1$ car $`101 \equiv 101`$ et $`50 \equiv 2*5*5`$, 1 est le seul diviseur commun. Dans ce cas, on dit que 101 et 50 sont premiers entre eux.
 
 Quelques liens :
 - https://fr.wikipedia.org/wiki/Plus_grand_commun_diviseur
@@ -55,10 +55,10 @@ Quelques liens :
 Nous utilisons communément la base 10 pour calculer ou bien communiquer. Cependant, il existe d'autres bases.
 
 En base 10, le nombre 346 peut se décomposer ainsi : 
-$346 \equiv 3*100 + 4*10 + 6*1 \equiv 3*10^2 + 4*10^1 + 6*10^0$
+$`346 \equiv 3*100 + 4*10 + 6*1 \equiv 3*10^2 + 4*10^1 + 6*10^0`$
 
 Ainsi, en base 2 (ou binaire), c'est la même chose : 
-$(1011)_2 \equiv 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 \equiv 8 + 2 + 1 = 11$
+$`(1011)_2 \equiv 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 \equiv 8 + 2 + 1 = 11`$
 
 Cette représentation est utilisée par les ordinateurs.
 
