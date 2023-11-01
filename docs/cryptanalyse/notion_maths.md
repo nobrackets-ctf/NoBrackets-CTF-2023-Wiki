@@ -16,7 +16,7 @@ Quelques liens :
 ### Le PGCD
 Le Plus Grand Diviseur Commun se calcule entre 2 nombres. Comme le nom l'indique, c'est le plus grand diviseur commun aux 2 nombres. 
 
-Exemple : $PGCD(18,16) = 2$ car $18 \equiv 3*3*2$ et $16 \equiv 2*2*2*2$.
+Exemple : $PGCD(18,16) = 2$ car $ 18 \equiv 3*3*2 $ et $ 16 \equiv 2*2*2*2 $.
 
 $PGCD(101,50) = 1$ car $101 \equiv 101$ et $50 \equiv 2*5*5$, 1 est le seul diviseur commun. Dans ce cas, on dit que 101 et 50 sont premiers entre eux.
 
