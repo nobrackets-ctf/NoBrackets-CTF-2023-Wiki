@@ -2,7 +2,7 @@
     "label": "Pwn",
     "link": {
       "type": "generated-index",
-      "description": "TODO : J'ai pas envie de dire de la d"
+      "description": "Le pwn ou exploitation de binaires est une catégorie où le but est d'exploiter des failles sur un exécutable afin d'en prendre le contrôle."
     }
   }
   
