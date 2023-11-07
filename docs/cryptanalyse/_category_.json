@@ -2,7 +2,7 @@
     "label": "Cryptanalyse",
     "link": {
       "type": "generated-index",
-      "description": "La cryptanalyse est l'art de casser des codes secrets."
+      "description": "La cryptographie est l'art de sécuriser des informations en les rendant illisibles pour des tiers non autorisés. La cryptanalyse consiste à analyser et à décoder des données chiffrées afin de révéler leur contenu original ou de casser un système de chiffrement."
     }
   }
   
