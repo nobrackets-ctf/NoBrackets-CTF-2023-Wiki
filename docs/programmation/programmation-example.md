@@ -23,6 +23,7 @@ Le serveur nous demande la réponse à la Question : après une petite recherche
 Problème : le serveur ne nous donne pas le temps d'écrire la réponse. Il faut donc passer par un script pour répondre rapidement ! 
 
 Un langage de programmation simple à utiliser et polyvalent est **python**.
+
 Pour l'installer : https://wiki.python.org/moin/BeginnersGuide/Download.
 
 Nous aurons également besoin de la libraire python [pwntools](https://docs.pwntools.com/en/stable/), une librairie qui permet la communication avec un exécutable ou un serveur.
@@ -47,6 +48,7 @@ print("[+] Sending, "+ REPONSE) # Envoyer la réponse
 connexion.sendline(REPONSE.encode("utf-8"))  # Envoyer la réponse
 connexion.interactive()                     # Laisser les messages suivant dérouler sans rien faire
 ```
+
 
 Il ne reste plus qu'à écrire ça dans un fichier **solve.py** et à l'exécuter avec python : 
 
