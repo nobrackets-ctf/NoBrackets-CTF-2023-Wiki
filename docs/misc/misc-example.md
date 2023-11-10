@@ -16,9 +16,9 @@ Le 9 écrit en caractère numérique interpelle : avec le "t'es", ça évoque la
 
 <img src="t9.jpg" alt="drawing" width="120"/>
 
-
 Pour déchiffrer le message, on peut sortir son vieux nokia d'un tiroir, ou alors chercher sur internet : on tombe sur dcode, un site très utile : https://www.dcode.fr/multitap-abc-cipher
 
 On entre le message, et voilà notre flag : `EXEMPLEMISCISUNDERRATED`
+
 
 En passant en minuscule comme dans le format du flag, et en replaçant les crochets, ça donne : `exemple{misc_is_underrated}`
