@@ -2,7 +2,7 @@
     "label": "Réseau",
     "link": {
       "type": "generated-index",
-      "description": "TODO : description"
+      "description": "L'analyse du réseau permet de retrouver les traces d'un attaquant. On se concentrera ici sur l'analyse de trames réseau capturées."
     }
   }
   
