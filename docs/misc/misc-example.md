@@ -1,4 +1,9 @@
-# Exemple d'un challenge de Misc
+# Misc
+
+La catégorie MISC regroupe tous les challenges qui n'entrent pas dans les autres catégories ou font partie de catégories trop petites pour être séparées.
+Vous y trouverez des technologies obscures, des formats de fichiers inhabituels, des énigmes...
+
+Pour réussir les challenges de MISC, pas de formule magique : il vous faudra de la logique, des recherches et pas mal de patience.
 
 ## T'es pas tout 9 : énoncé 
 
