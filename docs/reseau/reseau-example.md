@@ -17,7 +17,6 @@ Certains protocoles servent de base à d'autres : le protocole IP est plus ou mo
 Comme expliqué précédemment, le réseau en CTF consiste à analyser des captures de traffic entre deux machines. Pour ce faire, nous n'auront besoin que D'UN SEUL outil (contrairement à la steg :) ) : [Wireshark](https://www.wireshark.org/download.html). Il va nous permettre d'ouvrir les fichiers .pcap ou .pcapng et d'analyser leur contenu.
 
 Une fois le fichier ouvert, un grand d'informations se montrent à nous.
-![Wireshark](/img/ws1.jpg)
 Le bloc principal liste tous les paquets du fichier. Vous pouvez cliquer dessus pour les sélectionner.
 J'ai magnifiquement entouré les parties les plus intéressantes, voici un résumé :
 - *Blanc* : Contenu brut du paquet selectionné.
