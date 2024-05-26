@@ -3,7 +3,9 @@
 Les challenges de la catégorie réseau consistent pour la plupart à l'analyse de captures de traffic sur un réseau. On vous y demandera de retrouver des informations à partir de paquets réseau, qu'ils soient tirés d'une attaque (se rapprochant du forensic) ou d'une simple communication.
 
 ## Les bases du réseau
+
 ### Adresses
+
 Avant de se pencher sur les challenges de CTF, il est bon de faire un court rappel du fonctionnement des réseaux informatiques. Aujourd'hui, chaque machine connectée possède trois identifiants : 
 - l'adresse MAC est unique (mais spoofable) et désigne le système matériel.
 - l'adresse IP désigne plus un élément connecté. Elle existe sur un réseau local (10.0.0.0/8 ; 172.16.0.0/12 ; 192.168.0.0/16) généralement en IPv4, et sur Internet, en IPv6 (transformable en IPv4 grâce à de la [magie noire](https://fr.wikipedia.org/wiki/Transition_d%27IPv4_vers_IPv6)). L'IP d'une machine est généralement automatiquement attribuée par un serveur [DHCP](https://fr.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol), et peut être amenée à changer.
