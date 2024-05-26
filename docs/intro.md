@@ -19,8 +19,6 @@ Le wiki du NoBrackets a vocation de vous donner des bases dans toutes les catég
 - (FR/EN) Write-ups système : https://gcc-ensibs.fr/write-ups
 - (--) Votre meilleur ami : https://google.com/
 
-## Sanity check
-NBCTF{Un_SuP3r_W1ki_P0uR_Un_Sup3r_CTF!}
 
 ## Petit rappel : Qu'est-ce qu'un CTF
 
