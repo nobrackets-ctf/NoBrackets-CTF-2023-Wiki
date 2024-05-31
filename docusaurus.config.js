@@ -75,13 +75,7 @@ const config = {
             to: '/docs/intro',
             position: 'left',
             label: 'Tutoriels',
-          },
-          {
-            href: 'https://ctf.nobrackets.fr',
-            label: 'CTFd',
-            position: 'right',
-          },
-          
+          }
         ],
       },
       footer: {
@@ -117,7 +111,7 @@ const config = {
             title: 'CTF NoBrackets',
             items: [
               {
-                label: 'CTFd',
+                label: 'CTFd - Coming Soon',
                 to: 'https://ctf.nobrackets.fr',
               },
             ],
