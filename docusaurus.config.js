@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/NoBrackets',
+                href: 'https://discord.gg/68T7cnFYeK',
               },
               {
                 label: 'Twitter',
