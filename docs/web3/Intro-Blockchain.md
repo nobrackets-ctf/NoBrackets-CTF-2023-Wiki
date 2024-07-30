@@ -47,6 +47,7 @@
 # Premiers Pas sur Remix IDE
 
 Remix IDE est un environnement de développement intégré pour le développement de contrats intelligents sur Ethereum. Voici comment l'utiliser pour écrire, compiler et déployer des contrats intelligents.
+![alt text](image.png)
 
 ## Accéder à Remix IDE
 
@@ -111,9 +112,6 @@ Remix IDE est un environnement de développement intégré pour le développemen
     Vous verrez que l'environnement de Remix change pour afficher l'adresse de votre compte MetaMask connecté.
 
 # Tutoriel additionnel
-
-## Utilisation Avancée des Fonctions dans Remix IDE
-
 ### Ajouter des Fonctions
 
 Vous pouvez ajouter plus de fonctions à votre contrat pour interagir avec les utilisateurs.
