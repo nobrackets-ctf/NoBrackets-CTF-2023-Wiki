@@ -97,3 +97,53 @@ Remix IDE est un environnement de développement intégré pour le développemen
 2. **Appeler une fonction** :
     - Cliquez sur `greet` pour exécuter cette fonction.
     - Vous devriez voir la sortie "Hello, World!".
+
+
+# Connecter Metamask à Remix IDE
+
+1. Sélectionner l'Environnement de Déploiement
+    Dans Remix, allez dans l'onglet "Deploy & run transactions" (déployer et exécuter des transactions) sur le côté droit de l'écran (représenté par une icône de fusée).
+    Dans la section "Environment", sélectionnez "Injected Web3". Cela permet à Remix d'utiliser MetaMask comme fournisseur Web3.
+
+2. Autoriser la Connexion à MetaMask
+
+    Une fois que vous avez sélectionné "Injected Web3", une fenêtre MetaMask apparaîtra pour vous demander de vous connecter. Sélectionnez le compte que vous souhaitez utiliser et autorisez la connexion.
+    Vous verrez que l'environnement de Remix change pour afficher l'adresse de votre compte MetaMask connecté.
+
+# Tutoriel additionnel
+
+## Utilisation Avancée des Fonctions dans Remix IDE
+
+### Ajouter des Fonctions
+
+Vous pouvez ajouter plus de fonctions à votre contrat pour interagir avec les utilisateurs.
+
+```
+pragma solidity ^0.8.0;
+
+contract MyContract {
+    string public greet = "Hello, World!";
+    
+    function setGreeting(string memory _greet) public {
+        greet = _greet;
+    }
+}
+
+```
+
+### Compiler et Déployer de Nouveau
+
+1. **Compiler le Contrat Mis à Jour** :
+    - Recompilez le contrat après avoir ajouté les nouvelles fonctions.
+2. **Déployer le Contrat Mis à Jour** :
+    - Déployez de nouveau le contrat comme précédemment en utilisant "Injected Web3".
+
+### Interagir avec les Nouvelles Fonctions
+
+1. **Voir les Nouvelles Fonctions** :
+    - Sous "Deployed Contracts", vous verrez votre contrat déployé avec les nouvelles fonctions.
+2. **Appeler les Fonctions** :
+    - Utilisez `setGreeting` pour changer le message de salutation.
+    - Entrez un nouveau message dans le champ et cliquez sur `transact`.
+    - Confirmez la transaction via MetaMask.
+    - Appelez `greet` pour vérifier que le message a été mis à jour.
