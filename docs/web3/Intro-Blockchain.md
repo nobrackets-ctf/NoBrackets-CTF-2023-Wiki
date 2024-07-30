@@ -3,7 +3,7 @@
 ### Pour Chrome et Firefox
 
 1. **Visitez le site officiel de MetaMask** :
-    - MetaMask pour Chrome
+    - [MetaMask pour Chrome](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
     - [MetaMask pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/)
 2. **Ajoutez l'extension à votre navigateur** :
     - Cliquez sur "Ajouter à Chrome" ou "Ajouter à Firefox".
@@ -101,11 +101,11 @@ Remix IDE est un environnement de développement intégré pour le développemen
 
 # Connecter Metamask à Remix IDE
 
-1. Sélectionner l'Environnement de Déploiement
+1. **Sélectionner l'Environnement de Déploiement**
     Dans Remix, allez dans l'onglet "Deploy & run transactions" (déployer et exécuter des transactions) sur le côté droit de l'écran (représenté par une icône de fusée).
     Dans la section "Environment", sélectionnez "Injected Web3". Cela permet à Remix d'utiliser MetaMask comme fournisseur Web3.
 
-2. Autoriser la Connexion à MetaMask
+2. **Autoriser la Connexion à MetaMask**
 
     Une fois que vous avez sélectionné "Injected Web3", une fenêtre MetaMask apparaîtra pour vous demander de vous connecter. Sélectionnez le compte que vous souhaitez utiliser et autorisez la connexion.
     Vous verrez que l'environnement de Remix change pour afficher l'adresse de votre compte MetaMask connecté.
