@@ -53,6 +53,20 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+-    [
+3      "@dipakparmar/docusaurus-plugin-umami",
+3      /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
+-      ({
+5        websiteID: "e8494ad7-ea36-479b-a552-6c50d68389b1", // Required
+5        analyticsDomain: "analytics.gcc-ensibs.fr", // Required
+5        dataAutoTrack: true, // Optional
+5        dataDoNotTrack: true, // Optional
+5        dataCache: true // Optional
+5      }),
+3    ],
+2  ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
