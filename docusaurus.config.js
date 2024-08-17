@@ -33,7 +33,7 @@ const config = {
   },
 
   presets: [
-    [
+   [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -50,6 +50,19 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      }),
+    ],
+  ],
+  plugins: [
+    [
+      "@dipakparmar/docusaurus-plugin-umami",
+      /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
+      ({
+        websiteID: "e8494ad7-ea36-479b-a552-6c50d68389b1", // Required
+        analyticsDomain: "analytics.gcc-ensibs.fr", // Required
+        dataAutoTrack: true, // Optional
+        dataDoNotTrack: true, // Optional
+        dataCache: true // Optional
       }),
     ],
   ],
