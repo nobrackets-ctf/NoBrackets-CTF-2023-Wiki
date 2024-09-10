@@ -75,3 +75,17 @@ Pour le navigateur `Edge` les valeurs de ces colonnes pourraient être :
 - `Version` : 127.0.2651.86
 
 - `Size` : 3814968
+
+### Logs
+
+Un *log* ou journal, est un fichier qui garde une trace des événements qui se produisent sur l'ordinateur. C'est comme un journal de bord où sont notés toute sorte d'événement (connexions, démarrage et arrêt de programmes, actions des programmes...). En cybersécurité, ils sont analysés avec attention car ils peuvent contenir des traces d'activités malveillantes. Chaque log contient un **horodatage** (ou *timestamp* en anglais) qui permet de savoir précisément quand s'est déroulée l'action.
+
+#### Lecture des logs
+
+Sous Windows, les logs sont situés ici : `C:\Windows\System32\winevt\Logs\`, ce sont les fichiers avec l'extension `evtx`. **Attention**, ce sont des fichiers **binaires** ce qui veut dire qu'on ne peut pas les ouvrir dans le bloc note ou un éditeur de texte classique. C'est pour cela que, parfois, pour simplifier le challenge, on vous donnera une "traduction" du fichier binaire en fichier textuel qui pourra être ouvert par le bloc note, sublime text, visual studio code... Néanmoins, cela ne veut pas dire qu'ils sont facilement *compréhensibles*.
+
+#### Compréhension des logs
+
+Le plus souvent, on vous fournira un fichier `csv`, qui est un fichier **textuel**. On peut donc l'ouvrir avec un éditeur de texte comme le bloc note, sublime text, visual studio code ou autre. Cependant, dans le cas d'un fichier `csv`, il est plus simple de l'ouvrir dans un **tableur** comme LibreOffice Calc, Excel ou Google Sheet. Un fichier `csv` est comme un tableau avec des **lignes** et des **colonnes**. Chaque ligne est une action qui a été effectuée sur le système et chaque colonne est une information.
+
+**Il n'est pas nécessaire de tout comprendre.** En effet, les logs sont assez complexes, ils contiennent beaucoup d'informations. Pour simplifier la compréhension des logs, demandez à ChatGPT : prennez le temps de lui poser des questions. 
