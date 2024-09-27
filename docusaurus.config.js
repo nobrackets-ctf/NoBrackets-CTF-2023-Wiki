@@ -123,7 +123,7 @@ const config = {
             title: 'CTF NoBrackets',
             items: [
               {
-                label: 'CTFd - Coming Soon',
+                label: 'Plateforme CTF - Inscription',
                 to: 'https://ctf.nobrackets.fr',
               },
             ],
