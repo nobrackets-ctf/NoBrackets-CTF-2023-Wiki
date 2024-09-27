@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -31,7 +33,15 @@ const config = {
     defaultLocale: 'fr',
     locales: ['fr'],
   },
-
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
   presets: [
     [
       'classic',
@@ -39,6 +49,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -99,7 +111,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/NoBrackets',
+                href: 'https://discord.gg/68T7cnFYeK',
               },
               {
                 label: 'Twitter',
