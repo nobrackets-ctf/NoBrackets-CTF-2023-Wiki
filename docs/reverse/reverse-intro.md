@@ -50,3 +50,5 @@ Parfois il suffit juste de lancer l'application qu'on souhaite analyser pour fai
 Pour cela on utilise souvent des **déboggeurs**, sur navigateur par exemple il est simple de débogger et faire une analyse dynamique du code Javascript d'un site web grâce au déboggeur intégré au navigateur (Dev Tools > Source)
 
 Pour des binaires (Linux) il y a de nombreux déboggeurs mais le plus connue est surement GDB, pour en apprendre plus je vous laisse lire [la page suivante](https://wiki.nobrackets.fr/docs/reverse/reverse-dynamique-avec-gdb) du wiki qui sera sur le sujet ;)
+
+Dernier point, parfois en analyse dynamique il nous suffit juste de regarder rapidement ce que demande de faire l'application. Pour regarder si un binaire souhaite: faire une comparaison, afficher du texte, demander un input à l'utilisateur, etc. Pour cela on utilise des outils comme ``strace`` ou ``ltrace``
