@@ -65,9 +65,10 @@ Il y a 3 type d'opération, soit un xor (^), soit un plus (+) et soit un (-)
 
 Comme nous avons le résultat de chaque opération ainsi que l'un des deux opérande, on peut retrouver le mot de passe initial !
 
-Soit a un des caractère de notre mdp, b l'opérande donné: - si l'opération est un xor a = b ^ résultat
-                                                          - si l'opération est un plus a = résultat - b
-                                                          - si l'opération est un moins a = résultat + b
+Soit a un des caractère de notre mdp, b l'opérande donné:
+- si l'opération est un xor a = b ^ résultat
+- si l'opération est un plus a = résultat - b
+- si l'opération est un moins a = résultat + b
 
 On peut écrire un simple script python pour retrouver le mdp :
 
