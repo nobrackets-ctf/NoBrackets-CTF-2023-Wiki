@@ -21,3 +21,19 @@ On peut commencer par passer notre fichier dans un desassembler, personnellement
 
 Si on regarde le main, on se retrouve avec ça :
 ![image](https://github.com/user-attachments/assets/dc40a76f-e84d-4990-a50c-43500cbdfdde)
+
+Ici on recupère la valeur que vous avez donné au programme :
+![image](https://github.com/user-attachments/assets/f2655498-cfd1-4efd-bf4c-9cbc55297651)
+
+Ici on passe l'input dans la fonction **sub_1230**, on peut en deviner que le retour de la fonction est un bouléan (0 ou 1), si 0 (donc faux) on affiche la suite de valeur dans **data_2030** sinon on affiche **"u won ! OwO\n"**.
+![image](https://github.com/user-attachments/assets/7f098c4d-c5d9-4fa7-8fde-17cb6c22a113)
+
+Il est très conseillé de renomer les différents éléments qui nous sont donné !
+Je vais renommer **sub_1230** par **check_password**
+                 **data_2030** par **loosing_output**
+                 **buf** par **input**
+
+
+
+
+
