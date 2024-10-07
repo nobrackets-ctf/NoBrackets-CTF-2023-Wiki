@@ -32,11 +32,17 @@ Ici on passe l'input dans la fonction **sub_1230**, on peut en deviner que le re
 ![image](https://github.com/user-attachments/assets/7f098c4d-c5d9-4fa7-8fde-17cb6c22a113)
 
 Il est très conseillé de renomer les différents éléments qui nous sont donné !
-Je vais renommer **sub_1230** par **check_password**
-                 **data_2030** par **loosing_output**
-                 **buf** par **input**
+Je vais donc renommer **sub_1230** par **check_password**, **data_2030** par **loosing_output** et **buf** par **input**
 
+Allons voir à quoi ressemble check_password :
 
+On voit que la fonction prend un String :
+
+![image](https://github.com/user-attachments/assets/ff5fe498-1de6-4185-958e-683c1eecd707)
+
+et qu'elle retourne un booléan, si **increment** est égale à 22 :
+
+![image](https://github.com/user-attachments/assets/88dda9df-71a4-4e5f-bcc6-083f4db8b506)
 
 
 
