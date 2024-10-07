@@ -2,7 +2,7 @@
 
 ## Enoncé :
 
-Mince j'ai oublier mon mot de passe, aidez moi à le retrouver.
+Mince j'ai oublié mon mot de passe, aidez moi à le retrouver.
 
 Avec un fichier executable.
 
