@@ -15,7 +15,7 @@ Donc nous avons un simple fichier exectutable, la première étape pourrait êtr
 example: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
 ```
 
-On voit que c'est ELF 64 bit et que le fichier est "not stripped", c'est-à-dire que les informations de debbug n'ont pas été enlevé.
+On voit que c'est ELF 64 bit et que le fichier est "not stripped", c'est-à-dire que les informations de debug n'ont pas été enlevés.
 
 On peut commencer par tout simplement executer le binaire et voir ce que ça fait :
 
@@ -43,7 +43,7 @@ Ici on passe l'input dans la fonction **sub_1230**, on peut en deviner que le re
 
 ![image](https://github.com/user-attachments/assets/7f098c4d-c5d9-4fa7-8fde-17cb6c22a113)
 
-Il est très conseillé de renomer les différents éléments qui nous sont donné !
+Il est très conseillé de renomer les différents éléments qui nous sont donnés !
 Je vais donc renommer **sub_1230** par **check_password**, **data_2030** par **loosing_output** et **buf** par **input**
 
 Allons voir à quoi ressemble check_password :
@@ -52,20 +52,20 @@ On voit que la fonction prend un String :
 
 ![image](https://github.com/user-attachments/assets/ff5fe498-1de6-4185-958e-683c1eecd707)
 
-et qu'elle retourne un booléan, si **increment** est égale à 22 (0x16) :
+et qu'elle retourne un booléen, si **increment** est égal à 22 (0x16) :
 
 ![image](https://github.com/user-attachments/assets/88dda9df-71a4-4e5f-bcc6-083f4db8b506)
 
-et surtout elle opère une suite d'opérations et de comparaison sur les différents caractère de l'argument donné et incrément l'incrément de 1 si la comparaison est vrai :
+et surtout elle opère une suite d'opérations et de comparaisons sur les différents caractères de l'argument donné et incrémente l'incrément de 1 si la comparaison est vraie :
 
 ![image](https://github.com/user-attachments/assets/7c5d06a1-51c5-4aea-848a-e6bb9027d137)
 
-Il y a 22 suite d'opération et de comparaison comme celle ci en tout, un detail près est que le type d'opération change.
-Il y a 3 type d'opération, soit un xor (^), soit un plus (+) et soit un (-)
+Il y a 22 suites d'opérations et de comparaisons comme celle ci en tout, à un détail près est que le type d'opération change.
+Il y a 3 types d'opérations, soit un xor (^), soit un plus (+) et soit un (-)
 
-Comme nous avons le résultat de chaque opération ainsi que l'un des deux opérande, on peut retrouver le mot de passe initial !
+Comme nous avons le résultat de chaque opération ainsi que l'une des deux opérande, on peut retrouver le mot de passe initial !
 
-Soit a un des caractère de notre mdp, b l'opérande donné:
+Soit a, un des caractères de notre mdp, b l'opérande donné:
 - si l'opération est un xor a = b ^ résultat
 - si l'opération est un plus a = résultat - b
 - si l'opération est un moins a = résultat + b
