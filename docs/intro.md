@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Le wiki du NoBrackets a vocation de vous donner des bases dans toutes les catégories du CTF. De courts articles vous attendent pour vous faire découvrir quelques exemples de techniques d'exploitation spécifiques à la catégorie. N'oubliez pas que le wiki n'est qu'un complément, rien ne vaut une bonne recherche sur votre moteur de recherche préféré.
 
+Vous pouvez valider le challenge "Wiki" avec le flag suivant : `NBCTF{W1k1_appr0v3d}`
+
 ## Quelques liens utiles
 - (EN) La bible du Hacking, Hacktricks : https://book.hacktricks.xyz/welcome/readme
 - (EN) La bible de la crypto, Cryptohack : https://cryptohack.gitbook.io/cryptobook/
