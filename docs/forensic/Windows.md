@@ -10,6 +10,11 @@ Quelques ressources que vous *devriez* regarder :
 
 > Regroupe les artefacts natifs Windows les plus utiles. Ils sont regroupés par catégorie pour faciliter leur compréhension (par exemple : *Application Execution*, *Account Usage*,...). Pour chaque artefact : une description, une ou plusieurs localisation(s) ainsi qu'une interprétation sont fournies.
 
+- [Windows Hunt Evil Poster](https://sansorg.egnyte.com/dl/ecbXmRX0QN)
+
+> Explicite ce qu'il est normal de trouver dans l'arbre d'exécution des processus afin de se focaliser sur ceux potentiellement malveillants et décrit les mouvements latéraux qu'un attaquant peut utiliser pour gagner du terrain dans l'infrastructure.
+> Pour chaque partie, des détails sont ajoutés afin d'aider l'analyste à savoir et comprendre quoi regarder.
+
 - [Windows DFIR Artifact Explorer](https://windows-dfir-artifact-explorer.com/)
 
 > Ce site, en plus des artefacts issus du poster du SANS (voir point précédent), guide l'utilisateur dans le choix des catégories d'artefact à analyser.
