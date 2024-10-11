@@ -5,9 +5,9 @@ sidebar_position: 2
 # Déployer un challenge
 
 Les challenges sont divisés en 3 catégories :
-- **Statique** : Le challenge ne nécessite pas de connexion, tout est à réaliser en local (chez vous).
-- **Globale** : Le challenge nécessite une connexion à une instance qui est partagée avec tous les joueurs.
-- **Dynamique** : Le challenge nécessite une connexion à une instance qui est dédiée à vous et ne peut être accessible par les autres joueurs (sauf votre équipe).
+- [**Statique**](https://wiki.nobrackets.fr/docs/challenge/#challenges-statiques) : Le challenge ne nécessite pas de connexion, tout est à réaliser en local (chez vous).
+- [**Globale**](https://wiki.nobrackets.fr/docs/challenge/#challenges-globaux) : Le challenge nécessite une connexion à une instance qui est partagée avec tous les joueurs.
+- [**Dynamique**](https://wiki.nobrackets.fr/docs/challenge/#d%C3%A9ployer-un-challenge-dynamique) : Le challenge nécessite une connexion à une instance qui est dédiée à vous et ne peut être accessible par les autres joueurs (sauf votre équipe).
 
 ## Challenges statiques
 
@@ -43,12 +43,14 @@ Pour s'y connecter, il suffit de lancer `nc challenges.nobrackets.fr 10201` depu
 
 ### Tl;dr
 
+:::info
 Pour déployer un challenge dynamique, il faut :
 1. Générer un token (https://ctf.nobrackets.fr/settings#tokens)
 2. Entrer le token sur la plateforme de déploiement (https://deploy.nobrackets.fr/)
 3. Déployer le challenge en sélectionnant le challenge et en cliquant sur "Run instance"
 4. Récupérer l'adresse et le port de l'instance
 5. Résoudre le challenge !
+:::
 
 ### Procédure détaillée
 
