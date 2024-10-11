@@ -52,7 +52,7 @@ Pour déployer un challenge dynamique, il faut :
 5. Résoudre le challenge !
 :::
 
-### Procédure détaillée
+### Procédure détaillée
 
 Pour les challenges dynamiques, il est nécessaire de déployer une instance du challenge. Pour cela, il faut se rendre sur la plateforme de déploiement : https://deploy.nobrackets.fr/.
 
