@@ -20,7 +20,7 @@ En effet, il est nécessaire de connecter la plateforme de déploiement à votre
 
 Choisir une date d'expiration après le CTF (par exemple le 31/10/2024), laisser la description vide et cliquer sur "Générer".
 
-Votre clé apparaît. Vous pouvez utiliser l'icône à droite pour le copier. Attention, elle ne vous sera jamais montrée une 2e fois ! Si perdez cette clé, il est tout à fait possible d'en faire une nouvelle.
+Votre clé apparaît. Vous pouvez utiliser l'icône à droite pour le copier. Attention, elle ne vous sera jamais montrée une 2e fois ! Si vous perdez cette clé, il est tout à fait possible d'en faire une nouvelle.
 
 Retourner sur https://deploy.nobrackets.fr/ et entrez la clé que vous venez de copier.
 
