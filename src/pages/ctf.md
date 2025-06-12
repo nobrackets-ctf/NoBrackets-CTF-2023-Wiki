@@ -3,7 +3,7 @@
 Un CTF, abréviation de "Capture The Flag", est un concours qui met à l'épreuve vos compétences en informatique/cybersécurité par équipe. Le NoBracketsCTF est organisé par le club étudiant [Galette Cidre CTF (GCC)](https://gcc-ensibs.fr/), par des étudiants des spécialités [Cyberdéfense](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cyberdefense-ICYB00_213.html), [Cybersécurité du Logiciel](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-du-logiciel-IINF00_207.html) et [Cybersécurité et Sciences des Données](https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-et-sciences-des-donnees-KWW171GO.html) 
  de [l'Ecole Nationale Supérieur d'Ingénieur de Bretagne Sud (ENSIBS)](https://www-ensibs.univ-ubs.fr/fr/index.html).
 
-L'événement se déroulera du **vendredi 11 octobre 19h au dimanche 13 octobre 2024 à 19h** par équipe. Le CTF sera **en ligne**, sur [ctf.nobrackets.fr](https://ctf.nobrackets.fr), la plateforme contiendra :
+L'événement se déroulera du **vendredi 17 octobre 19h au dimanche 19 octobre 2025 à 19h** par équipe. Le CTF sera **en ligne**, sur [ctf.nobrackets.fr](https://ctf.nobrackets.fr) *(Le site arrive bientôt !)*, la plateforme contiendra :
 - Les challenges
 - Le classement des équipes
 - De la ressource documentaire écrite par les créateurs des challenges pour aider les plus débutants sur certains défis
@@ -13,9 +13,18 @@ Le [Discord de l'événement](https://discord.gg/njcQxMEkNQ) (rejoignez-le maint
 
 Le NoBracketsCTF vise à initier les collégiens et lycéens aux métiers de la cybersécurité et de l'informatique. Il a pour but de vous fournir une première expérience formatrice dans cet écosystème riche et varié.
 
-## Ils ont participé l'année dernière
+## Ils ont participé en 2024
 
-- [Lycée Likès de Quimper](https://lycee-pro.likes.org/2023/11/27/participation-des-eleves-a-la-competition-no-brackets-ctf-capture-the-flag/)
+- [Lycée Jean Paul II de Rennes](https://www.groupe-saintjean.fr/les-terminales-nsi-du-lycee-brillent-au-no-brackets-ctf/)
+- [Lycée Joseph Loth de Pontivy](https://www.lycee-loth.fr/index.php?id_menu=63&id_article=868)
+- [Lycée Le Likès de Quimper](https://lycee-pro.likes.org/2024/11/21/nobrackets-ctf/)
+- [Article des Infos du Pays Gallo](https://www.lesinfosdupaysgallo.com/2024/11/05/questembert-cybersecurite-belle-performance-des-lyceens-au-challenge-national-nobrackets-ctf/)
+- [Article de l'académie d'Amiens](http://informatique.ac-amiens.fr/127-ctf-de-l-european-cyber-week-2024.html)
+- [Article de l'académie de Versailles](https://sciences-informatiques.ac-versailles.fr/spip.php?article112)
+
+## Ils ont participé en 2023
+
+- [Lycée Le Likès de Quimper](https://lycee-pro.likes.org/2023/11/27/participation-des-eleves-a-la-competition-no-brackets-ctf-capture-the-flag/)
 - [Lycée Sacré Coeur de Saint Brieuc](https://www.styves-sacrecoeurlasalle.bzh/actualites/2023-11-pour-notre-securite-reperons-les-defenseurs-de-demain)
 - [Lycée Alcide d'Orbigny](https://alcide-orbigny.paysdelaloire.e-lyco.fr/le-sport-au-lycee/4-lyceens-se-qualifient-pour-la-finale-dun-challenge-de-cybersecurite/)
 - [Lycée Saint-François Notre-Dame de Lesneven](https://www.letelegramme.fr/finistere/lesneven-29260/lesneven-cinq-lyceens-de-saint-francois-notre-dame-qualifies-pour-une-competition-cyber-a-rennes-6470487.php)
