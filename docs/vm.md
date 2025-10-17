@@ -26,11 +26,11 @@ La procédure pour démarrer une machine d'attaque est similaire à celle des ch
 Le lien contient le mot de passe pour accéder au VNC et se connecter à la machine d'attaque, ne le partagez pas aux autres équipes.
 :::
 
-![alt text](image-6.png)
+![alt text](novnc.png)
 
 * Cliquer sur "Connecter".
 
-![alt text](novnc.png)
+![alt text](image-5.png)
 
 * Félicitations vous avez accès à la machine d'attaque !
 
