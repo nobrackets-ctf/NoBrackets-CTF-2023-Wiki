@@ -5,9 +5,9 @@ sidebar_position: 2
 # Déployer un challenge
 
 Les challenges sont divisés en 3 catégories :
-- [**Statique**](https://wiki.nobrackets.fr/docs/challenge/#challenges-statiques) : Le challenge ne nécessite pas de connexion, tout est à réaliser en local (chez vous).
-- [**Globale**](https://wiki.nobrackets.fr/docs/challenge/#challenges-globaux) : Le challenge nécessite une connexion à une instance qui est partagée avec tous les joueurs.
-- [**Dynamique**](https://wiki.nobrackets.fr/docs/challenge/#d%C3%A9ployer-un-challenge-dynamique) : Le challenge nécessite une connexion à une instance qui est dédiée à vous et ne peut être accessible par les autres joueurs (sauf votre équipe).
+- [**Statique**](#challenges-statiques) : Le challenge ne nécessite pas de connexion, tout est à réaliser en local (chez vous).
+- [**Globale**](#challenges-globaux) : Le challenge nécessite une connexion à une instance qui est partagée avec tous les joueurs.
+- [**Dynamique**](#d%C3%A9ployer-un-challenge-dynamique) : Le challenge nécessite une connexion à une instance qui est dédiée à vous et ne peut être accessible par les autres joueurs (sauf votre équipe).
 
 ## Challenges statiques
 
@@ -54,42 +54,16 @@ Pour déployer un challenge dynamique, il faut :
 
 ### Procédure détaillée
 
-Pour les challenges dynamiques, il est nécessaire de déployer une instance du challenge. Pour cela, il faut se rendre sur la plateforme de déploiement : https://deploy.nobrackets.fr/.
+Pour les challenges dynamiques, une instance est déployée automatiquement à la demande du joueur. Une fois sur la page du challenge, il suffit de cliquer sur le bouton "Start challenge".
 
-![alt text](image-3.png)
+![alt text](page_chall.png)
 
-Si vous accédez à la plateforme de déploiement pour **la première fois**, vous verrez ce message :
+Les informations de connexion au challenge s'affichent une fois l'instance déployée.
 
-![alt text](image-7.png)
+![Informations de connexion au challenge](info_connexion.png)
 
-En effet, il est nécessaire de lier la plateforme de déploiement à votre compte sur la plateforme de CTF. Vous pouvez cliquer sur le [lien pour générer un token](https://ctf.nobrackets.fr/settings#tokens). Il est également possible d'aller dans vos paramètres sur https://ctf.nobrackets.fr/ dans le menu "Access Tokens".
+Dans l'exemple, le challenge est déployé à l'adresse `node2.nobrackets.fr`, sur le port `11421`. Sur ce challenge il n'y a pas de site web, on peut se connecter à l'adresse et au port en utilisant netcat ([nc](https://linuxize.com/post/netcat-nc-command-with-examples/)) ou Python ([pwntools](https://docs.pwntools.com/en/stable/)).
 
-![alt text](image-8.png)
+Lorsque le challenge est terminé, cliquer sur le bouton "Stop challenge" pour arrêter l'instance.
 
-Choisissez une date d'expiration après le CTF (par exemple le 31/10/2024), laissez la description vide et cliquez sur "Générer" :
-- **Expiration** : 31/10/2024
-- **Description** : (Laisser vide)
-
-![alt text](image-14.png)
-Votre clé apparaît. Vous pouvez utiliser l'icône à droite pour la copier. Attention, **elle ne vous sera jamais montrée une 2e fois** !
-
-Si vous perdez cette clé, il faudra en regénérer une autre !
-
-
-:::warning
-Attention, cette clé est **PRIVÉE** et ne doit **JAMAIS** être partagée !
-:::
-
-Retournez sur https://deploy.nobrackets.fr/ et entrez la clé que vous venez de copier.
-
-Une fois le token rentré, la page ressemble à ça :
-
-![alt text](image-9.png)
-
-Vous pouvez sélectionner le nom du challenge avec le menu déroulant "Select a challenge". Ensuite, cliquez sur "Run instance".
-
-Vous retrouverez la liste des instances déployées par les membres de votre équipe :
-
-![alt text](image-10.png)
-
-Dans mon exemple, le challenge est déployé à l'adresse `node1.nobrackets.fr`, sur le port `38396`. Comme le challenge présente un site web, je dois résoudre le challenge en visitant l'URL `http://node1.nobrackets.fr:38396/`. Pour les autres types de challenge, il peut être nécessaire de se connecter à l'adresse et au port en utilisant netcat ([nc](https://linuxize.com/post/netcat-nc-command-with-examples/)) ou Python ([pwntools](https://docs.pwntools.com/en/stable/)).
+Il est possible de déployer 1 challenge par personne. Démarrer une nouvelle instance détruira les anciennes, à l'exception de la [machine d'attaque](https://wiki.nobrackets.fr/docs/vm/) qui peut être déployée en même temps qu'un autre challenge.

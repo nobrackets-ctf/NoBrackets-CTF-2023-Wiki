@@ -10,32 +10,28 @@ Liste non exhaustive des outils installés sur la machine : Wireshark, nmap, Joh
 
 ## Lancer une machine
 
-* Aller sur https://deploy.nobrackets.fr/
+La procédure pour démarrer une machine d'attaque est similaire à celle des challenges dynamiques (voir [ici](https://wiki.nobrackets.fr/docs/challenge/#d%C3%A9ployer-un-challenge-dynamique)).
 
-* Si ce n'est pas fait, entrer son token CTFd. Pour plus d'informations : [visiter cette page](./challenge).
+* Sélectionner le challenge "Virtual Web Desktop" puis cliquer sur "Start challenge".
 
-![alt text](image.png)
+![alt text](vwd.png)
 
-* Dans le menu déroulant, sélectionner "Virtuel Web Desktop" puis cliquer sur "Run instance".
+* Plusieurs services sont exposées : un SSH, un VNC et un VNC à travers un site web.
 
-![alt text](image-1.png)
+![alt text](vwd_started.png)
 
-* Dans les informations qui apparaissent, noter la valeur de "Host", le port http et le mot de passe. 
+* Pour ouvrir le VNC dans le navigateur cliquer sur le lien.
 
-![alt text](image-2.png)
-
-* Ouvrir un nouvel onglet et entrer l'URL `http://HOST:PORT` (dans mon exemple, entrer `http://node1.nobrackets.fr:22364/`).
+:::warning
+Le lien contient le mot de passe pour accéder au VNC et se connecter à la machine d'attaque, ne le partagez pas aux autres équipes.
+:::
 
 ![alt text](image-6.png)
 
 * Cliquer sur "Connecter".
 
-![alt text](image-4.png)
-
-* Entrer le mot de passe noté précédemment.
+![alt text](novnc.png)
 
 * Félicitations vous avez accès à la machine d'attaque !
-
-![alt text](image-5.png)
 
 * Vous pouvez utiliser le navigateur par défaut ou Firefox pour vous rendre sur https://ctf.nobrackets.fr/, vous connecter et commencer à résoudre des challenges !

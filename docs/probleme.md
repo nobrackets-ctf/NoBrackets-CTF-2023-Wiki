@@ -31,11 +31,3 @@ Sur Windows ce n'est pas ``nc`` mais ``ncat`` !
 De plus il vous faut l'installer => https://nmap.org/dist/ncat-portable-5.59BETA1.zip
 
 (Au passage il vous proposera d'autres logiciels à installer tel que Nmap, n'hésitez pas à les prendre. Vous en aurez besoin plus tard dans votre possible futur vie d'expert en cybersécurité)
-
-## deploy.nobrackets ?
-
-Les pages :
-- https://wiki.nobrackets.fr/docs/challenge
-- https://wiki.nobrackets.fr/docs/vm
-
-pourraient vous intéresser ! Elles vous donneront les marches à suivre.
