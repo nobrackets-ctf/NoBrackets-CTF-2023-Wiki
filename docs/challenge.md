@@ -41,19 +41,6 @@ Pour s'y connecter, il suffit de lancer `nc challenges.nobrackets.fr 10201` depu
 
 ## Déployer un challenge dynamique
 
-### Tl;dr
-
-:::info
-Pour déployer un challenge dynamique, il faut :
-1. Générer un token (https://ctf.nobrackets.fr/settings#tokens)
-2. Entrer le token sur la plateforme de déploiement (https://deploy.nobrackets.fr/)
-3. Déployer le challenge en sélectionnant le challenge et en cliquant sur "Run instance"
-4. Récupérer l'adresse et le port de l'instance
-5. Résoudre le challenge !
-:::
-
-### Procédure détaillée
-
 Pour les challenges dynamiques, une instance est déployée automatiquement à la demande du joueur. Une fois sur la page du challenge, il suffit de cliquer sur le bouton "Start challenge".
 
 ![alt text](page_chall.png)
