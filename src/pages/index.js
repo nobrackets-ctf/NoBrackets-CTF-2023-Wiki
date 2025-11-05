@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://ctf.nobrackets.fr">
-            S'inscrire 🚩
+            to="https://wiki.nobrackets.fr/ctf">
+            S'inscrire 🚩 - Coming Soon
           </Link>
         </div>
       </div>
